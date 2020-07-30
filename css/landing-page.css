@@ -167,3 +167,20 @@ footer.footer {
 .faqdiv {
   margin-bottom: 3em;
 }
+
+.navbar > .btn {
+  margin-right: 1em;
+}
+
+@media (max-width: 1024px) {
+  a.navbar-brand {
+    width: 50%;
+  }
+  a.navbar-brand > img {
+    width: 9em;
+    height: auto;
+  }
+  .navbar > .btn {
+    margin-right: 0;
+  }
+}
